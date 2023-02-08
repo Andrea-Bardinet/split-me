@@ -1,0 +1,14 @@
+{
+    "0": {
+        "color0": "white",
+        "color1": "yellow",
+        "color2": "blue",
+        "colorBorder": "black"
+    },
+    "1": {
+        "color0": "white",
+        "color1": "pink",
+        "color2": "green",
+        "colorBorder": "red"
+    }
+}

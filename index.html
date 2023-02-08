@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitMe</title>
+    <script src="app.js" defer></script>
+    <script src="html2canvas.min.js"></script>
+</head>
+
+<body>
+    <div type=0 class="box first" id="jeu">
+        <p>CLICK</p>
+    </div>
+    <button id="settingsBut" class="button rotate">
+        <img src="imgs/settings.svg" />
+    </button>
+    <button id="backBut" class="button turn-left">
+        <img src="imgs/back.svg" />
+    </button>
+    <button id="clearBut" class="button turn-right">
+        <img src="imgs/clear.svg" />
+    </button>
+    <button id="screenBut" class="button turn-left">
+        <img src="imgs/screenshot.svg" />
+    </button>
+    <!-- <button id="themeBut" class="button turn-left">
+        <img src="imgs/theme.svg" />
+    </button>
+    <div id="themes">
+        <div class="theme">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="theme">
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
+
+    <div id="settings" class="disable invisible">
+        <label>
+            Background Color:
+            <input type="color" id="color0" value="#ECE5F0" />
+        </label>
+        <label>
+            Color 1:
+            <input type="color" id="color1" value="#EEC643" />
+        </label>
+        <label>
+            Color 2:
+            <input type="color" id="color2" value="#7FD1B9" />
+        </label>
+        <label>
+            Border size:
+            <input type="number" id="borderSize" value="5" min="0"  value="5" />
+        </label>
+        <label>
+            Border color:
+            <input type="color" id="borderColor" value="#000000" />
+        </label>
+        <button id="resetSettingsBut" type="button">Reset</button>
+    </div>
+</body>
+
+</html>
